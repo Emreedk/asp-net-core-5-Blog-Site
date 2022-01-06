@@ -1,0 +1,131 @@
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.deps.json
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.deps.json
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.deps.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.deps.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_EntityLayer\bin\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_EntityLayer\obj\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.deps.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.deps.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.deps.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.deps.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_EntityLayer\bin\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_EntityLayer\obj\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.deps.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_EntityLayer\bin\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_EntityLayer\obj\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.deps.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.deps.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.pdb

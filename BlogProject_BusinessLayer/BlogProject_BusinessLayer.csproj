@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogProject_DataAccessLayer\BlogProject_DataAccessLayer.csproj" />
+    <ProjectReference Include="..\BlogProject_EntityLayer\BlogProject_EntityLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.3.3" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\..\..\emre asp.net\MuzluSozlukRevize\ContentProject.WebUI\Bin\EntityFramework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

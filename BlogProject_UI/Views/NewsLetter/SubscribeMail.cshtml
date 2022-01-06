@@ -1,0 +1,41 @@
+﻿<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+<div class="tech-btm">
+    <img src="/CoreBlogTema/images/banner1.jpg" class="img-fluid" alt="">
+</div>
+<div class="tech-btm">
+    <h4>Mail Bültenine Abone Olun</h4>
+    <p>İçeriklerden haberdar olmak için abone ol</p>
+    <form method="post">
+        <input type="email" id="email" placeholder="Email" required="" name="Mail">
+        <input type="submit" onclick="doComment()" value="Abone Ol">
+    </form>
+
+</div>
+
+
+<script>
+    function doComment() {
+        var txt = $('#email').val();
+
+        $.ajax({
+            method: "POST",
+            url: "/NewsLetter/SubscribeMail",
+            data: { "mail": txt }
+        }).done(function (data) {
+            
+            if (data.result) {
+                //yorumlar partial yüklenir.
+                swal(" ", "Abone Olduğunuz İçin Teşekkürler");
+            }
+            else {
+                alert("Kayıt Başarısız Oldu")
+            }
+        }).fail(function () {
+            alert("Sunucu ile bağlantı kurulamadı.")
+        }); 
+        
+    }
+
+</script>

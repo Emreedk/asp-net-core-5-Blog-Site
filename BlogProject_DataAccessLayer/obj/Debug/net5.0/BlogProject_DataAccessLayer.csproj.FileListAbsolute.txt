@@ -1,0 +1,208 @@
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.deps.json
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.json
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.dev.json
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CopyComplete
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\Emre Asp.Net Core 5.0 Blog Projesi\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.genruntimeconfig.cache
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.deps.json
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.json
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.dev.json
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CopyComplete
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\semih\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.genruntimeconfig.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.deps.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.dev.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CopyComplete
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.genruntimeconfig.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.deps.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.dev.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_DataAccessLayer\bin\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CopyComplete
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_DataAccessLayer\obj\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\BlogRevize_2021.31.12\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.genruntimeconfig.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.deps.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.dev.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CopyComplete
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.01_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.genruntimeconfig.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.deps.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.dev.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CopyComplete
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.02_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.genruntimeconfig.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.deps.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.dev.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CopyComplete
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.genruntimeconfig.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\EntityFramework.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.03_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\EntityFramework.xml
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.deps.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.dev.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\EntityFramework.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\EntityFramework.xml
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CopyComplete
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\ınclude deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.genruntimeconfig.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.deps.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.dev.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\EntityFramework.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\bin\Debug\net5.0\EntityFramework.xml
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CopyComplete
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\Migration deneme\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.genruntimeconfig.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.deps.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.dev.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\EntityFramework.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\EntityFramework.xml
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CopyComplete
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.05_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.genruntimeconfig.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.deps.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.runtimeconfig.dev.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\EntityFramework.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\bin\Debug\net5.0\EntityFramework.xml
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.csproj.CopyComplete
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\ref\BlogProject_DataAccessLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.06_BlogProject\BlogProject_DataAccessLayer\obj\Debug\net5.0\BlogProject_DataAccessLayer.genruntimeconfig.cache

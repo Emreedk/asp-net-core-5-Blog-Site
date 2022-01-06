@@ -1,0 +1,63 @@
+﻿@using BlogProject_EntityLayer.Concrete
+@model List<Blog>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+<section class="main-content-w3layouts-agileits">
+    <div class="container">
+        <h3 class="tittle">Bloglar</h3>
+        <div class="inner-sec">
+            <!--left-->
+            <div class="left-blog-info-w3layouts-agileits text-left">
+                <div class="row">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-lg-4 card">
+                            <a href="single.html">
+                                <img src="@item.BlogImage" class="card-img-top img-fluid" alt="">
+                            </a>
+                            <div class="card-body">
+                                <ul class="blog-icons my-4">
+                                    <li>
+                                        <a href="#">
+                                            <i class="far fa-calendar-alt"></i>@item.BlogCreateDate.ToShortDateString()
+                                        </a>
+                                    </li>
+                                        <li class="mx-2">
+                                            <a href="#">
+                                                <i class="far fa-comment"></i>@item.Comments.Count
+                                            </a>
+                                        </li>
+
+                                    <li>
+                                        <a href="#">
+                                            <i class="far fa-thumbs-up"></i>@item.Likes.Count
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fas fa-user"></i>@item.Writer.WriterUserName
+                                        </a>
+                                    </li>
+
+
+                                </ul>
+                                <h5 class="text-black-50">
+                                    <a href="single.html">@item.Category.CategoryName</a>
+                                </h5>
+                                <h5 class="card-title">
+                                    <a href="/Blog/BlogReadAll/@item.Id">@item.BlogTitle</a>
+                                </h5>
+
+                                <p class="card-text mb-3">@item.BlogContent.Substring(0,item.BlogContent.Substring(0,100).LastIndexOf(" "))...</p>
+                                <a href="/Blog/BlogReadAll/@item.Id" class="btn btn-primary read-m">Devamını Oku...</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <!--//left-->
+            </div>
+        </div>
+    </div>
+</section>
