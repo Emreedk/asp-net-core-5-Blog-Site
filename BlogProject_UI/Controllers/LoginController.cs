@@ -22,12 +22,13 @@ namespace BlogProject_UI.Controllers
         {
 
             Context c = new Context();
-            var dataValue = c.Writers.FirstOrDefault(x => x.WriterMail == writer.WriterMail /*|| x.WriterUserName == writer.WriterUserName*/ && x.WriterPassword == writer.WriterPassword);
+            var dataValue = c.Writers.FirstOrDefault(x => x.WriterMail == writer.WriterMail || x.WriterUserName == writer.WriterUserName && x.WriterPassword == writer.WriterPassword);
             if (dataValue != null)
             {
                 if (writer.WriterMail != null)
                 {
                     HttpContext.Session.SetString("username", writer.WriterMail);
+                    //HttpContext.Session.SetInt32("userId", writer.Id);
                 }
                 if (writer.WriterUserName != null)
                 {

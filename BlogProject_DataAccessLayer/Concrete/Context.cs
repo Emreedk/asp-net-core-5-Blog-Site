@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BlogProject_DataAccessLayer.Concrete
 {
-    public class Context:DbContext
+    public class Context : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -23,6 +23,7 @@ namespace BlogProject_DataAccessLayer.Concrete
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<Writer> Writers { get; set; }
         public DbSet<Like> Likes { get; set; }
+        public DbSet<BlogRating> BlogRatings { get; set; }
         public DbSet<NewsLetter> NewsLetters { get; set; }
 
     }

@@ -13,7 +13,7 @@ namespace BlogProject_UI.ViewComponents.Category
         CategoryManager cm = new CategoryManager(new EfCategoryRepository());
         public IViewComponentResult Invoke()
         {
-            var values = cm.GetList();
+            var values = cm.GetListWithRelationship();
             return View(values);
         }
     }

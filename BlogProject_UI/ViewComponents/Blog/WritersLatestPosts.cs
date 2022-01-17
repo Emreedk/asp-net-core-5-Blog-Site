@@ -14,7 +14,7 @@ namespace BlogProject_UI.ViewComponents.Blog
         public  IViewComponentResult Invoke()
         {
             
-            var values = bm.GetBlogListByWriter(1);
+            var values = bm.GetBlogListByWriter(1).OrderByDescending(x => x.BlogCreateDate).ToList().Take(3).ToList();
             return View(values);
         }
     }

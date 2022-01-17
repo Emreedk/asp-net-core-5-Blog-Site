@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace BlogProject_BusinessLayer.Abstract
 {
-    public interface IWriterService
+    public interface IWriterService:IGenericService<Writer>
     {
-        void WriterAdd(Writer writer);
+        
         
     }
 }

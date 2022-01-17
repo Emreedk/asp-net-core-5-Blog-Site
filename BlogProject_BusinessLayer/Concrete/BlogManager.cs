@@ -19,25 +19,19 @@ namespace BlogProject_BusinessLayer.Concrete
             _blogDal = blogDal;
         }
 
-        public void BlogAdd(Blog blog)
+        public void Add(Blog obj)
         {
-            throw new NotImplementedException();
+            _blogDal.Insert(obj);
         }
 
-        public void BlogDelete(Blog blog)
+        public void Delete(Blog obj)
         {
-            throw new NotImplementedException();
+            _blogDal.Delete(obj);
         }
 
-        public void BlogUpdate(Blog blog)
+        public List<Blog> GetBlogListByWriter(int id)
         {
-            throw new NotImplementedException();
-        }
-
-
-        public List<Blog> GetListWithRelationship()
-        {
-            return _blogDal.GetListWithRelationship();
+            return _blogDal.GetListAll(x => x.WriterId == id);
         }
 
         public Blog GetById(int id)
@@ -45,20 +39,37 @@ namespace BlogProject_BusinessLayer.Concrete
             return _blogDal.GetById(id);
         }
 
-        public List<Blog> GetBlogById(int id)
-        {
-            return _blogDal.GetListAll(x => x.Id == id);
-        }
-
         public List<Blog> GetList()
         {
             return _blogDal.GetListAll();
         }
 
-        public List<Blog> GetBlogListByWriter(int id)
+        public List<Blog> GetListWithRelationship()
         {
-            return _blogDal.GetListAll(x => x.WriterId == id);
+            return _blogDal.GetListWithRelationship();
         }
+
+        public List<Blog> GetListWithCategoryByWriter(int id)
+        {
+            return _blogDal.GetListWithCategoryByWriter(id);
+        }
+
+        public void Update(Blog obj)
+        {
+            _blogDal.Update(obj);
+        }
+
+        public List<Blog> GetListAllById(int id)
+        {
+            return _blogDal.GetListAll(x => x.Id == id);
+        }
+
+
+        public List<Blog> GetLast3Blog()
+        {
+            return _blogDal.GetListAll().Take(3).ToList();
+        }
+        
 
     }
 }

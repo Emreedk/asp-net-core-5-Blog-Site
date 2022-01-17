@@ -1,0 +1,25 @@
+﻿@using BlogProject_EntityLayer.Concrete
+@model List<Blog>
+
+@foreach (var item in Model)
+{
+    <div class="single-gd tech-btm">
+        <h4>Son Eklenen Post</h4>
+        <div class="blog-grids">
+            <div class="blog-grid-left">
+                <a href="/Blog/BlogReadAll/@item.Id">
+                    <img src="@item.BlogImage" class="img-fluid" alt="">
+                </a>
+                <div class="text-center">
+                    <a href="/Blog/BlogReadAll/@item.Id" class="text-dark">@item.BlogTitle</a>
+                </div>
+            </div>
+            @if (item.BlogContent.Length > 100)
+            {
+                <p class="card-text mb-3">@item.BlogContent.Substring(0, item.BlogContent.Substring(0, 100).LastIndexOf(" "))...</p>
+            }
+            <a href="/Blog/BlogReadAll/@item.Id" class="btn btn-primary read-m">Devamını Oku...</a>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+}

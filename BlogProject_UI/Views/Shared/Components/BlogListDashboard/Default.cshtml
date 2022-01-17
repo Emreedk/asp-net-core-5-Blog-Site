@@ -1,0 +1,48 @@
+﻿@using BlogProject_EntityLayer.Concrete
+@model List<Blog>
+
+<div class="row">
+    <div class="col-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Son Eklenen Bloglar</h4>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Yazar</th>
+                                <th>Blog Adı</th>
+                                <th>Durumu</th>
+                                <th>Oluşturma Tarihi</th>
+                                <th>Kategori</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <img src="~/writer/assets/images/@item.Writer.WriterImage" class="mr-2" alt="image">@item.Writer.WriterName @item.Writer.WriterSurname
+                                    </td>
+                                    <td><a href="/Blog/BlogReadAll/@item.Id" class="text-dark">@item.BlogTitle</a></td>
+                                    <td>        
+                                            @if (item.BlogStatus)
+                                            {
+                                                <span class="badge badge-success">Aktif</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge badge-secondary">Pasif</span>
+                                            }                                       
+                                    </td>
+                                    <td>@item.BlogCreateDate.ToShortDateString()</td>
+                                    <td>@item.Category.CategoryName</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

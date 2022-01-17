@@ -18,9 +18,34 @@ namespace BlogProject_BusinessLayer.Concrete
             _aboutDal = aboutDal;
         }
 
+        public void Add(About obj)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Delete(About obj)
+        {
+            throw new NotImplementedException();
+        }
+
+        public About GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<About> GetList()
         {
             return _aboutDal.GetListAll();
+        }
+
+        public List<About> GetListAllById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(About obj)
+        {
+            throw new NotImplementedException();
         }
     }
 }

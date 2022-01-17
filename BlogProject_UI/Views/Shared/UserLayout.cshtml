@@ -14,6 +14,7 @@
 <html lang="zxx">
 
 <head>
+    <link rel="shortcut icon" href="~/writer/assets/images/kulturatolyesi.ico" />
     <title>Kültür Atölyesi</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -21,13 +22,13 @@
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 
     <script>
-		addEventListener("load", function () {
-			setTimeout(hideURLbar, 0);
-		}, false);
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
 
-		function hideURLbar() {
-			window.scrollTo(0, 1);
-		}
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
     </script>
     <link href="~/CoreBlogTema/css/bootstrap.css" rel='stylesheet' type='text/css' />
     <link rel="stylesheet" href="~/CoreBlogTema/css/single.css">
@@ -44,8 +45,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="top-bar_sub_w3layouts container-fluid">
             <div class="row">
                 <div class="col-md-4 logo text-left">
-                    <a class="navbar-brand" href="/Blog/Index">
-                        <i class="fab fa-linode"></i> Kültür Atölyesi
+                    <a href="/Blog/Index">
+                        <img src="~/writer/assets/images/kultur.jpeg"  class="brand-image"
+                             width="150" height="150">
                     </a>
                 </div>
                 @await Html.PartialAsync("Partial2")

@@ -18,9 +18,36 @@ namespace BlogProject_BusinessLayer.Concrete
             _writerDal = writerDal;
         }
 
-        public void WriterAdd(Writer writer)
+        public void Add(Writer obj)
         {
-            _writerDal.Insert(writer);
+            _writerDal.Insert(obj);
         }
+
+        public void Delete(Writer obj)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Writer GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Writer> GetList()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Writer> GetListAllById(int id)
+        {
+            return _writerDal.GetListAll(x=> x.Id == id);
+        }
+
+        public void Update(Writer obj)
+        {
+            throw new NotImplementedException();
+        }
+
+     
     }
 }

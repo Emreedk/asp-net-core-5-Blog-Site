@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace BlogProject_BusinessLayer.Abstract
 {
-    public interface IAboutService
+    public interface IAboutService:IGenericService<About>
     {
-        List<About> GetList();
     }
 }

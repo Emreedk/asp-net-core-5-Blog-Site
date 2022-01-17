@@ -28,7 +28,7 @@ namespace BlogProject_UI.Controllers
             if (result.IsValid)
             {
                 writer.WriterStatus = true;
-                wm.WriterAdd(writer);
+                wm.Add(writer);
                 return RedirectToAction("Index", "Blog");
             }
             else
