@@ -1,31 +1,56 @@
-﻿@model BlogProject_EntityLayer.Concrete.Blog
+﻿@model BlogProject_UI.Models.BlogModel
 @{
     ViewData["Title"] = "EditBlog";
     Layout = "~/Views/Shared/WriterLayout.cshtml";
 }
 
 <h1>Blog Düzenleme</h1>
-@using (Html.BeginForm("EditBlog", "Blog", FormMethod.Post))
-{
+<div class="row">
+    <div class="col-md-8">
+        <form asp-controller="Blog" asp-action="EditBlog" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="Id" value="@Model.Id" />
+            <div class="form-group">
+                <label asp-for="BlogTitle" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="BlogTitle" value="@Model.BlogTitle" class="form-control" />
+                    <span asp-validation-for="BlogTitle"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="BlogImage" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <input type="hidden" name="BlogImage" value="@Model.BlogImage" />
+                    <img src="~/CoreBlogTema/images/@Model.BlogImage" width="80" id="imgPreview" />
+                    <input type="file" name="image" value="" id="image" />
+                </div>
+            </div>
+            @*<div class="form-group">
+                    <label asp-for="BlogThumbnailImage" class="col-md-2 col-form-label"></label>
+                    <div class="col-md-10">
+                        <input type="hidden" name="ThumbnailImage" value="@Model.BlogThumbnailImage" />
+                        <img src="~/CoreBlogTema/images/@Model.BlogThumbnailImage" width="80" id="imgPreview1" />
+                        <input type="file" name="thumbnail" value="" id="thumbnail" />
+                    </div>
+                </div>*@
+            <div class="form-group">
+                @Html.Label("Kategori")
+                @Html.DropDownListFor(x => x.CategoryId, (List<SelectListItem>)ViewBag.categoryValues, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label asp-for="BlogContent" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <textarea id="editor" asp-for="BlogContent" class="form-control"> @Model.BlogContent </textarea>
+                    <span asp-validation-for="BlogContent"></span>
 
-    @Html.Label("Blog Id")
-    @Html.TextBoxFor(x => x.Id, new { @class = "form-control" })
-    <br />
-    @Html.Label("Blog Adı")
-    @Html.TextBoxFor(x => x.BlogTitle, new { @class = "form-control" })
-    <br />
-    @Html.Label("Blog Thumbnail")
-    @Html.TextBoxFor(x => x.BlogThumbnailImage, new { @class = "form-control" })
-    <br />
-    @Html.Label("Blog Görseli")
-    @Html.TextBoxFor(x => x.BlogImage, new { @class = "form-control" })
-    <br />
-    @Html.Label("Kategori")
-    @Html.DropDownListFor(x => x.CategoryId, (List<SelectListItem>)ViewBag.categoryValues, new { @class = "form-control" })
-    <br />
-    @Html.Label("Blog İçeriği")
-    @Html.TextAreaFor(x => x.BlogContent, 7, 10, new { @class = "form-control" })
-    <br />
-    <button class="btn btn-success">Güncelle</button>
-}
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-md-10 offset-md-2">
+                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
 

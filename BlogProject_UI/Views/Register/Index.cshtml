@@ -1,4 +1,4 @@
-﻿@model BlogProject_EntityLayer.Concrete.Writer
+﻿@model BlogProject_UI.Models.RegisterModel
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/UserLayout.cshtml";
@@ -12,65 +12,73 @@
         <div class="inner-sec">
             <div class="login p-5 bg-light mx-auto mw-100">
 
-                @using (Html.BeginForm("Index", "Register", FormMethod.Post))
-                {
+                <form asp-controller="Register" asp-action="Index" method="post" enctype="multipart/form-data">
+
                     <div class="form-row">
                         <div class="col-md-6 mb-3">
                             <label for="validationCustom01">Adınız</label>
-                            @Html.TextBoxFor(x => x.WriterName, new { @class = "form-control" })
-                            @Html.ValidationMessageFor(x=> x.WriterName, "", new { @class = "text-danger" })
-                            @*<input type="text" class="form-control" id="validationDefault01" name="WriterName" placeholder="" required="">*@
+                            @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.Name, "", new { @class = "text-danger" })
+                            @Html.ValidationMessage("AlreadyUsername", "", new { @class = "text-danger" })
+
                         </div>
                         <div class="col-md-6 mb-3">
                             <label for="validationCustom01">Soyadınız</label>
 
-                            @Html.TextBoxFor(x => x.WriterSurname, new { @class = "form-control" })
-                            @Html.ValidationMessageFor(x => x.WriterSurname, "", new { @class = "text-danger" })
+                            @Html.TextBoxFor(x => x.Surname, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.Surname, "", new { @class = "text-danger" })
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="exampleInputPassword1 mb-2">Şifre</label>
-                            @Html.TextBoxFor(x => x.WriterPassword, new { @class = "form-control" })
-                            @Html.ValidationMessageFor(x => x.WriterPassword, "", new { @class = "text-danger" })
+                            @Html.TextBoxFor(x => x.Password, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.Password, "", new { @class = "text-danger" })
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="exampleInputPassword2 mb-2">Görsel Dosya Yolu</label>
-                            @Html.TextBoxFor(x => x.WriterImage, new { @class = "form-control" })
-                            @Html.ValidationMessageFor(x => x.WriterImage, "", new { @class = "text-danger" })
+                            <label for="exampleInputPassword1 mb-2">Şifre</label>
+                            @Html.TextBoxFor(x => x.RePassword, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.RePassword, "", new { @class = "text-danger" })
                         </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col-md-6 mb-3">
+                        <div class="form-group col-md-6">
                             <label for="validationCustom01">Kullanıcı Adı</label>
-
-                            @Html.TextBoxFor(x => x.WriterUserName, new { @class = "form-control" })
-                            @Html.ValidationMessageFor(x => x.WriterUserName, "", new { @class = "text-danger" })
+                            @Html.TextBoxFor(x => x.Username, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.Username, "", new { @class = "text-danger" })
                         </div>
-                        <div class="col-md-6 mb-3">
+                        <div class="form-group col-md-6">
                             <label for="validationCustom02">Mail Adresi</label>
-                            @Html.TextBoxFor(x => x.WriterMail, new { @class = "form-control" })
-                            @Html.ValidationMessageFor(x => x.WriterMail, "", new { @class = "text-danger" })
+                            @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.Email, "", new { @class = "text-danger" })
+                            @Html.ValidationMessage("AlreadyMail", "", new { @class = "text-danger" })
                         </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col-md-12 mb-3">
+                        <div class="form-group col-md-6">
                             <label for="validationCustom01">Kendinden Bahset</label>
 
-                            @Html.TextBoxFor(x => x.WriterAbout, new { @class = "form-control" })
-                            @Html.ValidationMessageFor(x => x.WriterAbout, "", new { @class = "text-danger" })
+                            @Html.TextBoxFor(x => x.About, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.About, "", new { @class = "text-danger" })
                         </div>
+                        <div class="form-group col-md-6">
+                            <label asp-for="WriterImage" class="col-md-2 col-form-label"></label>
+
+                            <input type="hidden" name="WriterImage" value="@Model.WriterImage" />
+                            <img src="~/CoreBlogTema/images/@Model.WriterImage" width="80" id="imgPreview" />
+                            <input type="file" name="image" value="" id="image"/>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit mb-4">Kayıt Ol</button>
                     </div>
-                    <button type="submit" class="btn btn-primary submit mb-4">Kayıt Ol</button>
                     <p>
                         <a href="#" id="btn1">Kullanım Koşulları.</a>
                     </p>
-                }
-
+                </form>
             </div>
         </div>
+        <br />
     </div>
     <br />
-    
+    <script>
+        $('#btn1').click(function () {
+            swal("Site Kullanım Koşulları", "Sitemizde verdiğiniz mail adresi üzerinden bilgi ve haber e-postaları spam ölçüsüne varmadan gönderilmeye devam edilecektir. Eğer e-posta bülteninden çıkmak isterseniz mail ileti dizisini durdurabilirsiniz, şifre ve mail adresleriniz şifrelenmiş formatta herhangi bir kullanıcının görmeyeceği şekilde veritabanlarımızda saklanmaktadır.");
+        });
+    </script>
 </section>
 

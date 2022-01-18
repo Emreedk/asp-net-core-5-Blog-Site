@@ -2,12 +2,15 @@
 using BlogProject_BusinessLayer.ValidationRules;
 using BlogProject_DataAccessLayer.EntityFramework;
 using BlogProject_EntityLayer.Concrete;
+using BlogProject_UI.Models;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -49,12 +52,12 @@ namespace BlogProject_UI.Controllers
                                                        Value = x.Id.ToString()
                                                    }).ToList();
             ViewBag.categoryValues = categoryValues;
-            return View();
+            return View(new BlogModel());
         }
 
         [HttpPost]
 
-        public IActionResult BlogAdd(Blog blog)
+        public async Task<IActionResult> BlogAdd(BlogModel model, IFormFile image)
         {
             List<SelectListItem> categoryValues = (from x in cm.GetList()
                                                    select new SelectListItem
@@ -63,22 +66,44 @@ namespace BlogProject_UI.Controllers
                                                        Value = x.Id.ToString()
                                                    }).ToList();
             ViewBag.categoryValues = categoryValues;
-            ValidationResult result = bv.Validate(blog);
-            if (result.IsValid)
+            ModelState.Remove("BlogImage");
+            if (ModelState.IsValid)
             {
-                blog.BlogStatus = true;
-                blog.BlogCreateDate = DateTime.Now;
-                blog.WriterId = 1;
-                bm.Add(blog);
-                return RedirectToAction("BlogListByWriter", "Blog");
-            }
-            else
-            {
-                foreach (var item in result.Errors)
+                if (image != null)
                 {
-                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                    model.BlogImage = image.FileName;
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\CoreBlogTema\\images", image.FileName);
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        await image.CopyToAsync(stream);
+                    }
                 }
+                //if (thumbnail != null)
+                //{
+                //    model.BlogThumbnailImage = thumbnail.FileName;
+                //    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\CoreBlogTema\\images", thumbnail.FileName);
+                //    using (var stream = new FileStream(path, FileMode.Create))
+                //    {
+                //        await thumbnail.CopyToAsync(stream);
+                //    }
+                //}
+                var entity = new Blog()
+                {
+                    BlogTitle = model.BlogTitle,
+                    CategoryId = model.CategoryId,
+                    BlogContent = model.BlogContent,
+                    BlogCreateDate = DateTime.Now,
+                    BlogStatus = true,
+                    BlogImage = model.BlogImage,
+                    //BlogThumbnailImage = model.BlogThumbnailImage,
+                    WriterId = 1
+
+                };
+
+                bm.Add(entity);
+                return RedirectToAction("Index", "Blog");
             }
+
             return View();
         }
 
@@ -88,9 +113,9 @@ namespace BlogProject_UI.Controllers
             bm.Delete(blogValue);
             return RedirectToAction("BlogListByWriter", "Blog");
         }
-        public IActionResult EditBlog(int id)
+        public IActionResult EditBlog(int? id)
         {
-            var blogValue = bm.GetById(id);
+            var blogValue = bm.GetById((int)id);
 
             List<SelectListItem> categoryValues = (from x in cm.GetList()
                                                    select new SelectListItem
@@ -100,10 +125,20 @@ namespace BlogProject_UI.Controllers
                                                    }).ToList();
             ViewBag.categoryValues = categoryValues;
 
-            return View(blogValue);
+            var model = new BlogModel()
+            {
+                Id = blogValue.Id,
+                BlogTitle = blogValue.BlogTitle,
+                BlogContent = blogValue.BlogContent,
+                CategoryId = blogValue.CategoryId,
+                BlogImage = blogValue.BlogImage,
+                //BlogThumbnailImage = blogValue.BlogThumbnailImage
+
+            };
+            return View(model);
         }
         [HttpPost]
-        public IActionResult EditBlog(Blog blog)
+        public async Task<IActionResult> EditBlog(BlogModel model, IFormFile image)
         {
             List<SelectListItem> categoryValues = (from x in cm.GetList()
                                                    select new SelectListItem
@@ -113,11 +148,48 @@ namespace BlogProject_UI.Controllers
                                                    }).ToList();
             ViewBag.categoryValues = categoryValues;
 
-            blog.WriterId = 1;
-            blog.BlogCreateDate = DateTime.Now;
-            blog.BlogStatus = true;
-            bm.Update(blog);
-            return RedirectToAction("BlogListByWriter", "Blog");
+            ModelState.Remove("image");
+            if (ModelState.IsValid)
+            {
+                if (image != null)
+                {
+                    model.BlogImage = image.FileName;
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\CoreBlogTema\\images", image.FileName);
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        await image.CopyToAsync(stream);
+                    }
+                }
+                //if (thumbnail != null)
+                //{
+                //    model.BlogThumbnailImage = thumbnail.FileName;
+                //    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\CoreBlogTema\\images", thumbnail.FileName);
+                //    using (var stream = new FileStream(path, FileMode.Create))
+                //    {
+                //        await thumbnail.CopyToAsync(stream);
+                //    }
+                //}
+
+                var entity = bm.GetById(model.Id);
+                if (entity == null)
+                {
+                    return NotFound();
+                }
+                entity.BlogTitle = model.BlogTitle;
+                entity.BlogContent = model.BlogContent;
+                entity.BlogImage = model.BlogImage;
+                //entity.BlogThumbnailImage = model.BlogThumbnailImage;
+                entity.BlogStatus = true;
+                entity.CategoryId = model.CategoryId;
+                entity.BlogCreateDate = DateTime.Now;
+                entity.WriterId = 1;
+
+                bm.Update(entity);
+
+                return RedirectToAction("BlogListByWriter", "Blog");
+            }
+
+            return View(model);
         }
     }
 }

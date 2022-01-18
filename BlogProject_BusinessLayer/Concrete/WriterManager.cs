@@ -11,6 +11,16 @@ namespace BlogProject_BusinessLayer.Concrete
 {
     public class WriterManager : IWriterService
     {
+        public bool UsernameMatchs(string username, string mail)
+        {
+            var user = _writerDal.Find(x => x.WriterUserName == username || x.WriterMail == mail);
+            if (user != null)
+            {
+                return true;
+            }
+            return false;
+        }
+
         IWriterDal _writerDal;
 
         public WriterManager(IWriterDal writerDal)
@@ -30,7 +40,7 @@ namespace BlogProject_BusinessLayer.Concrete
 
         public Writer GetById(int id)
         {
-            throw new NotImplementedException();
+            return _writerDal.GetById(1);
         }
 
         public List<Writer> GetList()
@@ -45,7 +55,7 @@ namespace BlogProject_BusinessLayer.Concrete
 
         public void Update(Writer obj)
         {
-            throw new NotImplementedException();
+            _writerDal.Update(obj);
         }
 
      

@@ -14,6 +14,7 @@ namespace BlogProject_DataAccessLayer.Abstract
         void Delete(T obj);
         void Update(T obj);
         T GetById(int id);
+        T Find(Expression<Func<T, bool>> filter);
         List<T> GetListAll(Expression<Func<T, bool>> filter);
 
         //IEnumerable<T> Include(params Expression<Func<T, object>>[] includes);

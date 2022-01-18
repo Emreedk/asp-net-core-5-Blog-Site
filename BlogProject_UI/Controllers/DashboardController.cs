@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BlogProject_BusinessLayer.Concrete;
+using BlogProject_DataAccessLayer.Concrete;
+using BlogProject_DataAccessLayer.EntityFramework;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BlogProject_UI.Controllers
 {
@@ -6,7 +9,9 @@ namespace BlogProject_UI.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            CategoryManager cm = new CategoryManager(new EfCategoryRepository());
+            var values = cm.GetListWithRelationship();
+            return View(values);
         }
     }
 }

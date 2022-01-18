@@ -53,6 +53,12 @@ namespace BlogProject_DataAccessLayer.Repository
             c.SaveChanges();
         }
 
+        public T Find(Expression<Func<T, bool>> filter)
+        {
+            using var c = new Context();
+            return c.Set<T>().SingleOrDefault(filter);
+        }
+
 
 
         //public IEnumerable<T> Include(params Expression<Func<T, object>>[] includes)

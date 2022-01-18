@@ -2,10 +2,13 @@
 using BlogProject_BusinessLayer.ValidationRules;
 using BlogProject_DataAccessLayer.EntityFramework;
 using BlogProject_EntityLayer.Concrete;
+using BlogProject_UI.Models;
 using FluentValidation.Results;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -14,31 +17,56 @@ namespace BlogProject_UI.Controllers
 
     public class RegisterController : Controller
     {
-        WriterValidation wv = new WriterValidation();
+        WriterValidator wv = new WriterValidator();
         WriterManager wm = new WriterManager(new EfWriterRepository());
         public IActionResult Index()
         {
 
-            return View();
+            return View(new RegisterModel());
         }
         [HttpPost]
-        public IActionResult Index(Writer writer)
+        public async Task<IActionResult> Index(RegisterModel model,IFormFile image)
         {
-            ValidationResult result = wv.Validate(writer);
-            if (result.IsValid)
+            bool user = wm.UsernameMatchs(model.Username, model.Email);
+            ModelState.Remove("WriterImage");
+            if (ModelState.IsValid && user == false)
             {
-                writer.WriterStatus = true;
-                wm.Add(writer);
-                return RedirectToAction("Index", "Blog");
+                if (image != null)
+                {
+                    model.WriterImage = image.FileName;
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\CoreBlogTema\\images", image.FileName);
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        await image.CopyToAsync(stream);
+                    }
+                }
+                var entity = new Writer()
+                {
+                    WriterName = model.Name,
+                    WriterSurname = model.Surname,
+                    WriterAbout = model.About,
+                    WriterImage=model.WriterImage,
+                    WriterMail= model.Email,
+                    WriterPassword=model.Password,
+                    WriterStatus=true,
+                    WriterUserName=model.Username
+                };
+                wm.Add(entity);
+                return RedirectToAction("Index", "Login");
             }
             else
             {
-                foreach (var item in result.Errors)
+                if (user)
                 {
-                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+                    ModelState.AddModelError("AlreadyUsername", "Kullanıcı adı kayıtlı. Başka bir kullanıcı adı giriniz");
+                    if (model.Email != null)
+                    {
+                        ModelState.AddModelError("AlreadyMail", "Mail adresi kayıtlı. Geçerli bir mail adresi giriniz.");
+                    }
+
                 }
             }
-            return View();
+                return View(model);
 
         }
 
