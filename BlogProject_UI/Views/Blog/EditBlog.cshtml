@@ -3,7 +3,16 @@
     ViewData["Title"] = "EditBlog";
     Layout = "~/Views/Shared/WriterLayout.cshtml";
 }
+<script src="~/CoreBlogTema/js/jquery-2.2.3.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#image').change(function (e) {
+            $('#imgPreview').show();
+            $('#imgPreview').attr('src', URL.createObjectURL(e.target.files[0]));
+        });
 
+    });
+</script>
 <h1>Blog Düzenleme</h1>
 <div class="row">
     <div class="col-md-8">

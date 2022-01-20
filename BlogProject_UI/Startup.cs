@@ -1,3 +1,4 @@
+using BlogProject_UI.Middlewares;
 using BlogProject_UI.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
@@ -75,6 +76,7 @@ namespace BlogProject_UI
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.CustomStaticFiles(); //middleWare: Bootstrap npm ile indilecek ve node module içerisindeki static dosyalarý ile dýþarýya açma iþlemi
 
             app.UseAuthentication(); //sisteme authentice olmamýzý saðladý
 

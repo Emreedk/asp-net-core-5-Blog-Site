@@ -3,6 +3,16 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/UserLayout.cshtml";
 }
+<script src="~/CoreBlogTema/js/jquery-2.2.3.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#image').change(function (e) {
+            $('#imgPreview').show();
+            $('#imgPreview').attr('src', URL.createObjectURL(e.target.files[0]));
+        });
+    });
+</script>
+
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script src="~/lib/jquery/dist/jquery.js"></script>
 
@@ -62,7 +72,7 @@
 
                             <input type="hidden" name="WriterImage" value="@Model.WriterImage" />
                             <img src="~/CoreBlogTema/images/@Model.WriterImage" width="80" id="imgPreview" />
-                            <input type="file" name="image" value="" id="image"/>
+                            <input type="file" name="image" value="" id="image" />
                         </div>
                         <button type="submit" class="btn btn-primary submit mb-4">Kayıt Ol</button>
                     </div>
