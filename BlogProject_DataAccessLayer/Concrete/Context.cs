@@ -25,6 +25,8 @@ namespace BlogProject_DataAccessLayer.Concrete
         public DbSet<Like> Likes { get; set; }
         public DbSet<BlogRating> BlogRatings { get; set; }
         public DbSet<NewsLetter> NewsLetters { get; set; }
+        public DbSet<Notification> Notifications { get; set; }
+        public DbSet<Message> Messages { get; set; }
 
     }
 }

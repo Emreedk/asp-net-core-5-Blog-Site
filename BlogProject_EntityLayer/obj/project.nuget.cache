@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9jALuBMG/2cJx7s0FrVNTtPfL77xuNYI+bICBu0KdcspEU25KooN6uPsho3veVJ6tfaGKQpdD7Mez4mzDnmy9Q==",
+  "dgSpecHash": "rDtcFg3GSzUW3MUyPK1hHyNbxCncs2k3MMEhcjCsN2LcztTihPabTb3CKu41QHwWfLGiuFl1PucG+FiO2juC3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emree\\Desktop\\BlogProject ASP.NET CORE\\2022.01.20_BlogProject\\BlogProject_EntityLayer\\BlogProject_EntityLayer.csproj",
+  "projectFilePath": "C:\\Users\\emree\\Desktop\\BlogProject ASP.NET CORE\\2022.01.24_BlogProject\\BlogProject_EntityLayer\\BlogProject_EntityLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
