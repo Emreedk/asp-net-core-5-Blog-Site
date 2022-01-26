@@ -24,6 +24,9 @@ namespace BlogProject_EntityLayer.Concrete
         public List<Comment> Comments { get; set; }
         public List<Like> Likes { get; set; }
 
+        public virtual ICollection<Message> WriterSender { get; set; }
+        public virtual ICollection<Message> WriterReceiver { get; set; }
+
 
 
     }

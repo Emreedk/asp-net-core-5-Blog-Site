@@ -33,9 +33,9 @@ namespace BlogProject_BusinessLayer.Concrete
             throw new NotImplementedException();
         }
 
-        public List<Message> GetInboxListByWriter(string p)
+        public List<Message> GetInboxListByWriter(int id)
         {
-            return _messageDal.GetListAll(x => x.Reciever == p);
+            return _messageDal.GetListMessageByWriter(id);
         }
 
         public List<Message> GetList()
@@ -45,7 +45,7 @@ namespace BlogProject_BusinessLayer.Concrete
 
         public List<Message> GetListAllById(int id)
         {
-            throw new NotImplementedException();
+            return _messageDal.GetListAll(x => x.ReceiverId== id);
         }
 
         public void Update(Message obj)

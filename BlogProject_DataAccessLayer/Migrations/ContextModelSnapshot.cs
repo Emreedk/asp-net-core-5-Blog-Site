@@ -239,16 +239,20 @@ namespace BlogProject_DataAccessLayer.Migrations
                     b.Property<bool>("MessageStatus")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Reciever")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int?>("ReceiverId")
+                        .HasColumnType("int");
 
-                    b.Property<string>("Sender")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int?>("SenderId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Subject")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ReceiverId");
+
+                    b.HasIndex("SenderId");
 
                     b.ToTable("Messages");
                 });
@@ -394,6 +398,21 @@ namespace BlogProject_DataAccessLayer.Migrations
                     b.Navigation("Writer");
                 });
 
+            modelBuilder.Entity("BlogProject_EntityLayer.Concrete.Message", b =>
+                {
+                    b.HasOne("BlogProject_EntityLayer.Concrete.Writer", "ReceiverUser")
+                        .WithMany("WriterReceiver")
+                        .HasForeignKey("ReceiverId");
+
+                    b.HasOne("BlogProject_EntityLayer.Concrete.Writer", "SenderUser")
+                        .WithMany("WriterSender")
+                        .HasForeignKey("SenderId");
+
+                    b.Navigation("ReceiverUser");
+
+                    b.Navigation("SenderUser");
+                });
+
             modelBuilder.Entity("BlogProject_EntityLayer.Concrete.Blog", b =>
                 {
                     b.Navigation("Comments");
@@ -413,6 +432,10 @@ namespace BlogProject_DataAccessLayer.Migrations
                     b.Navigation("Comments");
 
                     b.Navigation("Likes");
+
+                    b.Navigation("WriterReceiver");
+
+                    b.Navigation("WriterSender");
                 });
 #pragma warning restore 612, 618
         }

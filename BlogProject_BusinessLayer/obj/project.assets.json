@@ -5833,11 +5833,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emree\\Desktop\\BlogProject ASP.NET CORE\\2022.01.24_BlogProject\\BlogProject_BusinessLayer\\BlogProject_BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\emree\\Desktop\\BlogProject ASP.NET CORE\\2022.01.26_BlogProject\\BlogProject_BusinessLayer\\BlogProject_BusinessLayer.csproj",
       "projectName": "BlogProject_BusinessLayer",
-      "projectPath": "C:\\Users\\emree\\Desktop\\BlogProject ASP.NET CORE\\2022.01.24_BlogProject\\BlogProject_BusinessLayer\\BlogProject_BusinessLayer.csproj",
+      "projectPath": "C:\\Users\\emree\\Desktop\\BlogProject ASP.NET CORE\\2022.01.26_BlogProject\\BlogProject_BusinessLayer\\BlogProject_BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\emree\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emree\\Desktop\\BlogProject ASP.NET CORE\\2022.01.24_BlogProject\\BlogProject_BusinessLayer\\obj\\",
+      "outputPath": "C:\\Users\\emree\\Desktop\\BlogProject ASP.NET CORE\\2022.01.26_BlogProject\\BlogProject_BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5858,11 +5858,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\emree\\Desktop\\BlogProject ASP.NET CORE\\2022.01.24_BlogProject\\BlogProject_DataAccessLayer\\BlogProject_DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\emree\\Desktop\\BlogProject ASP.NET CORE\\2022.01.24_BlogProject\\BlogProject_DataAccessLayer\\BlogProject_DataAccessLayer.csproj"
+            "C:\\Users\\emree\\Desktop\\BlogProject ASP.NET CORE\\2022.01.26_BlogProject\\BlogProject_DataAccessLayer\\BlogProject_DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\emree\\Desktop\\BlogProject ASP.NET CORE\\2022.01.26_BlogProject\\BlogProject_DataAccessLayer\\BlogProject_DataAccessLayer.csproj"
             },
-            "C:\\Users\\emree\\Desktop\\BlogProject ASP.NET CORE\\2022.01.24_BlogProject\\BlogProject_EntityLayer\\BlogProject_EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\emree\\Desktop\\BlogProject ASP.NET CORE\\2022.01.24_BlogProject\\BlogProject_EntityLayer\\BlogProject_EntityLayer.csproj"
+            "C:\\Users\\emree\\Desktop\\BlogProject ASP.NET CORE\\2022.01.26_BlogProject\\BlogProject_EntityLayer\\BlogProject_EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\emree\\Desktop\\BlogProject ASP.NET CORE\\2022.01.26_BlogProject\\BlogProject_EntityLayer\\BlogProject_EntityLayer.csproj"
             }
           }
         }
