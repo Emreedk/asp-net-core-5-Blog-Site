@@ -14,6 +14,8 @@ namespace BlogProject_BusinessLayer.Abstract
         void Update(T obj);
         List<T> GetList();
         T GetById(int id);
+
+        T GetByAuth(string mail);
         List<T> GetListAllById(int id);
 
     }

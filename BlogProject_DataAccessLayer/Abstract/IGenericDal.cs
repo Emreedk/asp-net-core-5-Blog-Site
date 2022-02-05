@@ -14,6 +14,8 @@ namespace BlogProject_DataAccessLayer.Abstract
         void Delete(T obj);
         void Update(T obj);
         T GetById(int id);
+
+        //T GetByAuth(string mail);
         T Find(Expression<Func<T, bool>> filter);
         List<T> GetListAll(Expression<Func<T, bool>> filter);
 

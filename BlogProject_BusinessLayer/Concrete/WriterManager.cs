@@ -58,6 +58,9 @@ namespace BlogProject_BusinessLayer.Concrete
             _writerDal.Update(obj);
         }
 
-     
+        public Writer GetByAuth(string mail)
+        {
+            return _writerDal.Find(x=> x.WriterMail == mail);
+        }
     }
 }

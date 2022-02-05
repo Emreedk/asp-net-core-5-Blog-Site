@@ -39,23 +39,23 @@ namespace BlogProject_UI
             services.AddSession();    //session ekle
 
 
-            //services.AddMvc(config =>                                        //Proje genelinde authorize iþlemi(hiçbir sayfaya eriþim yok)
-            //                                                                 //Anonymous vererek izinsaðlayacaðým
-            //{
-            //    var policy = new AuthorizationPolicyBuilder()
-            //                    .RequireAuthenticatedUser()
-            //                    .Build();
-            //    config.Filters.Add(new AuthorizeFilter(policy));
-            //});
+            services.AddMvc(config =>                                        //Proje genelinde authorize iþlemi(hiçbir sayfaya eriþim yok)
+                                                                             //Anonymous vererek izinsaðlayacaðým
+            {
+                var policy = new AuthorizationPolicyBuilder()
+                                .RequireAuthenticatedUser()
+                                .Build();
+                config.Filters.Add(new AuthorizeFilter(policy));
+            });
 
-            //services.AddMvc();                                                //Return URL komutu... authorize izni verilmeyen sayfaya
-            //services.AddAuthentication(                                       // gidilmek istenirse login sayfasýna yönlendirim
-            //    CookieAuthenticationDefaults.AuthenticationScheme)
-            //    .AddCookie(x =>
-            //    {
-            //        x.LoginPath = "/Login/Index";
+            services.AddMvc();                                                //Return URL komutu... authorize izni verilmeyen sayfaya
+            services.AddAuthentication(                                       // gidilmek istenirse login sayfasýna yönlendirim
+                CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(x =>
+                {
+                    x.LoginPath = "/Login/Index";
 
-            //    });
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

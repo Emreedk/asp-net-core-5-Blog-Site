@@ -59,6 +59,12 @@ namespace BlogProject_DataAccessLayer.Repository
             return c.Set<T>().SingleOrDefault(filter);
         }
 
+        //public T GetByAuth(string mail)
+        //{
+        //    using var c = new Context();
+        //    return c.Set<T>().Find(mail);
+        //}
+
 
 
         //public IEnumerable<T> Include(params Expression<Func<T, object>>[] includes)

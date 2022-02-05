@@ -28,6 +28,11 @@ namespace BlogProject_BusinessLayer.Concrete
             throw new NotImplementedException();
         }
 
+        public About GetByAuth(string mail)
+        {
+            throw new NotImplementedException();
+        }
+
         public About GetById(int id)
         {
             throw new NotImplementedException();

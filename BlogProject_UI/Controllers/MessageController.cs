@@ -6,15 +6,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BlogProject_UI.ViewComponents.Writer
+namespace BlogProject_UI.Controllers
 {
-    public class WriterMessageNotification:ViewComponent
+    public class MessageController : Controller
     {
         MessageManager mm = new MessageManager(new EfMessageRepository());
-        public IViewComponentResult Invoke()
+        public IActionResult InBox()
         {
-            int id = 1;
+            int id = 2;
             var values = mm.GetInboxListByWriter(id);
+            return View(values);
+        }
+
+        public IActionResult MessageDetails(int id)
+        {
+            var values = mm.GetById(id);
             return View(values);
         }
     }

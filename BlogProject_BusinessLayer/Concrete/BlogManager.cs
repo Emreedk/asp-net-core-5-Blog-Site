@@ -69,7 +69,10 @@ namespace BlogProject_BusinessLayer.Concrete
         {
             return _blogDal.GetListAll().Take(3).ToList();
         }
-        
 
+        public Blog GetByAuth(string mail)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

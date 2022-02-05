@@ -165,3 +165,15 @@ C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.26_BlogProject\BlogProje
 C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.26_BlogProject\BlogProject_CoreLayer\obj\Debug\net5.0\BlogProject_CoreLayer.dll
 C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.26_BlogProject\BlogProject_CoreLayer\obj\Debug\net5.0\ref\BlogProject_CoreLayer.dll
 C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.01.26_BlogProject\BlogProject_CoreLayer\obj\Debug\net5.0\BlogProject_CoreLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.02.05_BlogProject\BlogProject_CoreLayer\bin\Debug\net5.0\BlogProject_CoreLayer.deps.json
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.02.05_BlogProject\BlogProject_CoreLayer\bin\Debug\net5.0\BlogProject_CoreLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.02.05_BlogProject\BlogProject_CoreLayer\bin\Debug\net5.0\ref\BlogProject_CoreLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.02.05_BlogProject\BlogProject_CoreLayer\bin\Debug\net5.0\BlogProject_CoreLayer.pdb
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.02.05_BlogProject\BlogProject_CoreLayer\obj\Debug\net5.0\BlogProject_CoreLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.02.05_BlogProject\BlogProject_CoreLayer\obj\Debug\net5.0\BlogProject_CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.02.05_BlogProject\BlogProject_CoreLayer\obj\Debug\net5.0\BlogProject_CoreLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.02.05_BlogProject\BlogProject_CoreLayer\obj\Debug\net5.0\BlogProject_CoreLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.02.05_BlogProject\BlogProject_CoreLayer\obj\Debug\net5.0\BlogProject_CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.02.05_BlogProject\BlogProject_CoreLayer\obj\Debug\net5.0\BlogProject_CoreLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.02.05_BlogProject\BlogProject_CoreLayer\obj\Debug\net5.0\ref\BlogProject_CoreLayer.dll
+C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.02.05_BlogProject\BlogProject_CoreLayer\obj\Debug\net5.0\BlogProject_CoreLayer.pdb

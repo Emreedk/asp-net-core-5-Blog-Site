@@ -28,9 +28,14 @@ namespace BlogProject_BusinessLayer.Concrete
             throw new NotImplementedException();
         }
 
-        public Message GetById(int id)
+        public Message GetByAuth(string mail)
         {
             throw new NotImplementedException();
+        }
+
+        public Message GetById(int id)
+        {
+            return _messageDal.GetById(id);
         }
 
         public List<Message> GetInboxListByWriter(int id)

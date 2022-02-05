@@ -30,6 +30,11 @@ namespace BlogProject_BusinessLayer.Concrete
             _categoryDal.Delete(obj);
         }
 
+        public Category GetByAuth(string mail)
+        {
+            throw new NotImplementedException();
+        }
+
         public Category GetById(int id)
         {
             return _categoryDal.GetById(id);
