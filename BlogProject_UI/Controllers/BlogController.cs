@@ -1,5 +1,6 @@
 ﻿using BlogProject_BusinessLayer.Concrete;
 using BlogProject_BusinessLayer.ValidationRules;
+using BlogProject_DataAccessLayer.Concrete;
 using BlogProject_DataAccessLayer.EntityFramework;
 using BlogProject_EntityLayer.Concrete;
 using BlogProject_UI.Models;
@@ -12,6 +13,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace BlogProject_UI.Controllers
@@ -22,6 +24,7 @@ namespace BlogProject_UI.Controllers
         BlogValidator bv = new BlogValidator();
         BlogManager bm = new BlogManager(new EfBlogRepository());
         CategoryManager cm = new CategoryManager(new EfCategoryRepository());
+        Context c = new Context();
         public IActionResult Index()
         {
             var values = bm.GetListWithRelationship();
@@ -36,9 +39,13 @@ namespace BlogProject_UI.Controllers
             return View(values);
         }
 
-        public IActionResult BlogListByWriter(int id)
+        public IActionResult BlogListByWriter()
         {
-            var values = bm.GetListWithCategoryByWriter(1);
+            
+            string mail = ((ClaimsIdentity)User.Identity).FindFirst(ClaimTypes.Email).Value.ToString();
+            var writerId = c.Writers.Where(x => x.WriterMail == mail).Select(y => y.Id).FirstOrDefault();
+
+            var values = bm.GetListWithCategoryByWriter(writerId);
             return View(values);
         }
 
@@ -59,6 +66,10 @@ namespace BlogProject_UI.Controllers
 
         public async Task<IActionResult> BlogAdd(BlogModel model, IFormFile image)
         {
+            
+            string mail = ((ClaimsIdentity)User.Identity).FindFirst(ClaimTypes.Email).Value.ToString();
+            var writerId = c.Writers.Where(x => x.WriterMail == mail).Select(y => y.Id).FirstOrDefault();
+
             List<SelectListItem> categoryValues = (from x in cm.GetList()
                                                    select new SelectListItem
                                                    {
@@ -78,15 +89,6 @@ namespace BlogProject_UI.Controllers
                         await image.CopyToAsync(stream);
                     }
                 }
-                //if (thumbnail != null)
-                //{
-                //    model.BlogThumbnailImage = thumbnail.FileName;
-                //    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\CoreBlogTema\\images", thumbnail.FileName);
-                //    using (var stream = new FileStream(path, FileMode.Create))
-                //    {
-                //        await thumbnail.CopyToAsync(stream);
-                //    }
-                //}
                 var entity = new Blog()
                 {
                     BlogTitle = model.BlogTitle,
@@ -96,7 +98,7 @@ namespace BlogProject_UI.Controllers
                     BlogStatus = true,
                     BlogImage = model.BlogImage,
                     //BlogThumbnailImage = model.BlogThumbnailImage,
-                    WriterId = 1
+                    WriterId = writerId
 
                 };
 
@@ -115,6 +117,7 @@ namespace BlogProject_UI.Controllers
         }
         public IActionResult EditBlog(int? id)
         {
+
             var blogValue = bm.GetById((int)id);
 
             List<SelectListItem> categoryValues = (from x in cm.GetList()
@@ -140,6 +143,8 @@ namespace BlogProject_UI.Controllers
         [HttpPost]
         public async Task<IActionResult> EditBlog(BlogModel model, IFormFile image)
         {
+            string mail = ((ClaimsIdentity)User.Identity).FindFirst(ClaimTypes.Email).Value.ToString();
+            var writerId = c.Writers.Where(x => x.WriterMail == mail).Select(y => y.Id).FirstOrDefault();
             List<SelectListItem> categoryValues = (from x in cm.GetList()
                                                    select new SelectListItem
                                                    {
@@ -160,15 +165,6 @@ namespace BlogProject_UI.Controllers
                         await image.CopyToAsync(stream);
                     }
                 }
-                //if (thumbnail != null)
-                //{
-                //    model.BlogThumbnailImage = thumbnail.FileName;
-                //    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\CoreBlogTema\\images", thumbnail.FileName);
-                //    using (var stream = new FileStream(path, FileMode.Create))
-                //    {
-                //        await thumbnail.CopyToAsync(stream);
-                //    }
-                //}
 
                 var entity = bm.GetById(model.Id);
                 if (entity == null)
@@ -182,7 +178,7 @@ namespace BlogProject_UI.Controllers
                 entity.BlogStatus = true;
                 entity.CategoryId = model.CategoryId;
                 entity.BlogCreateDate = DateTime.Now;
-                entity.WriterId = 1;
+                entity.WriterId = writerId;
 
                 bm.Update(entity);
 

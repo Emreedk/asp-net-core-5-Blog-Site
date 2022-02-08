@@ -49,7 +49,9 @@ namespace BlogProject_UI.Controllers
 
         public IActionResult WriterEditProfile()
         {
-            var writerValues = wm.GetById(1);
+            string mail = ((ClaimsIdentity)User.Identity).FindFirst(ClaimTypes.Email).Value.ToString();
+            
+            var writerValues = wm.GetByAuth(mail);
             return View(writerValues);
         }
 
