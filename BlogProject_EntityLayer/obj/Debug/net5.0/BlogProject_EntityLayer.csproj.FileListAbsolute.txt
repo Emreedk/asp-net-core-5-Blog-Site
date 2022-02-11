@@ -249,3 +249,15 @@ C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.02.07_BlogProject\BlogProje
 C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.02.07_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.dll
 C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.02.07_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\ref\BlogProject_EntityLayer.dll
 C:\Users\emree\Desktop\BlogProject ASP.NET CORE\2022.02.07_BlogProject\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.deps.json
+C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_EntityLayer\bin\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_EntityLayer\bin\Debug\net5.0\BlogProject_EntityLayer.pdb
+C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.AssemblyReference.cache
+C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfoInputs.cache
+C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.AssemblyInfo.cs
+C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_EntityLayer\obj\Debug\net5.0\ref\BlogProject_EntityLayer.dll
+C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_EntityLayer\obj\Debug\net5.0\BlogProject_EntityLayer.pdb

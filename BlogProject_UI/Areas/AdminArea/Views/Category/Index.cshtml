@@ -19,12 +19,14 @@
         <tr>
             <td>@item.Id</td>
             <td>@item.CategoryName</td>
-            <td><a href="#" class="btn btn-danger">Pasif Yap</a></td>
+            <td><a href="/AdminArea/Category/DeleteCategory/@item.Id" id="DeleteBtn" onclick="return confirm('Silmek istediğinize emin misiniz?');" class="btn btn-danger">Pasif Yap</a></td>
             <td><a href="#" class="btn btn-success">Aktif Yap</a></td>
             <td><a href="#" class="btn btn-warning">Düzenle</a></td>
         </tr>
     }
 </table>
+<a href="/AdminArea/Category/AddCategory" class="btn btn-primary">Yeni Kategori Ekle</a>
+<br />
 <br />
 @if (Model.Count <= 3)
 {

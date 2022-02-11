@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lhj2fRfXKtMRD7QzXRo0isn2ozOJvP0SMfASUD20ebJgZiTkjStSpYbQxNOZvKzrSXFF18tlxPjImu2NFmGDvg==",
+  "dgSpecHash": "09feuTqLduLB+nmuUL9phIddWK+EsaNNpoMvJtREWf/84hFZehrb6Sb86p3mwePxJsi39aHi1aWAeFKF71WWHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emree\\Desktop\\BlogProject ASP.NET CORE\\2022.02.07_BlogProject\\BlogProject_CoreLayer\\BlogProject_CoreLayer.csproj",
+  "projectFilePath": "C:\\Users\\emree\\Desktop\\Emre-Github\\asp-net-core-5-project\\BlogProject_CoreLayer\\BlogProject_CoreLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ULDzhyLsIENRWbyk7m/mCrI8OMHxjdNqY8RD4GBrZyOWJCYFQLHqUC44+eEFGGHAEtK+mZ8CNi2HqKJ74aDgRg==",
+  "dgSpecHash": "LSDlka6mo9aN7zcIXLvKgcgXdKP84300yMeFojK0tzVu/E1fVRVT+OQU7dBEZvHZO0hiigTCSHXIRkUnU6phww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emree\\Desktop\\BlogProject ASP.NET CORE\\2022.02.07_BlogProject\\BlogProject_UI\\BlogProject_UI.csproj",
+  "projectFilePath": "C:\\Users\\emree\\Desktop\\Emre-Github\\asp-net-core-5-project\\BlogProject_UI\\BlogProject_UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emree\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
     "C:\\Users\\emree\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.3\\fluentvalidation.aspnetcore.10.3.3.nupkg.sha512",
