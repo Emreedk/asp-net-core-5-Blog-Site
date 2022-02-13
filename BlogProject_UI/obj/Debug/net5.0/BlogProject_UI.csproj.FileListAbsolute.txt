@@ -4511,3 +4511,10 @@ C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_UI\obj\Deb
 C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_UI\obj\Debug\net5.0\BlogProject_UI.pdb
 C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_UI\obj\Debug\net5.0\BlogProject_UI.genruntimeconfig.cache
 C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_UI\obj\Debug\net5.0\Razor\Areas\AdminArea\Views\Category\AddCategory.cshtml.g.cs
+C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_UI\bin\Debug\net5.0\ClosedXML.dll
+C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_UI\bin\Debug\net5.0\DocumentFormat.OpenXml.dll
+C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_UI\bin\Debug\net5.0\ExcelNumberFormat.dll
+C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_UI\bin\Debug\net5.0\System.IO.Packaging.dll
+C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_UI\obj\Debug\net5.0\Razor\Areas\AdminArea\Views\Blog\BlogListExcel.cshtml.g.cs
+C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_UI\obj\Debug\net5.0\Razor\Areas\AdminArea\Views\Blog\BlogTitleListExcel.cshtml.g.cs
+C:\Users\emree\Desktop\Emre-Github\asp-net-core-5-project\BlogProject_UI\obj\Debug\net5.0\Razor\Areas\AdminArea\Views\Widget\Index.cshtml.g.cs
